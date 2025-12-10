@@ -12,4 +12,8 @@ public class HomeController {
     public String home(){
         return "WECLOME HOME FAAAL";
     }
+    @GetMapping("/bello")
+    public String home2(){
+        return "BABABABABBABAB";
+    }
 }
