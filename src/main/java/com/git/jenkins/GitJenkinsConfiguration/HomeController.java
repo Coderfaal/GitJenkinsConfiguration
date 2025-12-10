@@ -16,4 +16,8 @@ public class HomeController {
     public String home2(){
         return "BABABABABBABAB";
     }
+    @GetMapping("/bingo")
+    public String home3(){
+        return "hello bingo";
+    }
 }
